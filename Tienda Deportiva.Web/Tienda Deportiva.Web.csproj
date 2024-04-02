@@ -1899,6 +1899,26 @@
     <Compile Include="App_Start\SiteInitialization.ExceptionLog.cs" />
     <Compile Include="App_Start\SiteInitialization.Migrations.cs" />
     <Compile Include="App_Start\SiteInitialization.cs" />
+    <Compile Include="capaentidades\Cliente.cs" />
+    <Compile Include="capaentidades\DetallePedido.cs" />
+    <Compile Include="capaentidades\Pedido.cs" />
+    <Compile Include="capaentidades\Producto.cs" />
+    <Compile Include="caparepositorios\ClienteRepository.cs" />
+    <Compile Include="caparepositorios\DetallePedidoRepository.cs" />
+    <Compile Include="caparepositorios\IClienteRepository.cs" />
+    <Compile Include="caparepositorios\IDetallePedidoRepository.cs" />
+    <Compile Include="caparepositorios\IPedidoRepository.cs" />
+    <Compile Include="caparepositorios\IProductoRepository.cs" />
+    <Compile Include="caparepositorios\PedidoRepository.cs" />
+    <Compile Include="caparepositorios\ProductoRepository.cs" />
+    <Compile Include="capaservicio\ClienteService.cs" />
+    <Compile Include="capaservicio\DetallePedidoService.cs" />
+    <Compile Include="capaservicio\IClienteService.cs" />
+    <Compile Include="capaservicio\IDetallePedidoService.cs" />
+    <Compile Include="capaservicio\IPedidoService.cs" />
+    <Compile Include="capaservicio\IProductoService.cs" />
+    <Compile Include="capaservicio\PedidoService.cs" />
+    <Compile Include="capaservicio\ProductoService.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
