@@ -1974,6 +1974,16 @@
     <Compile Include="Modules\BasicSamples\Grids\StoredProcedureGrid\CustomerGrossSalesListRequest.cs" />
     <Compile Include="Modules\BasicSamples\Grids\StoredProcedureGrid\CustomerGrossSalesEndpoint.cs" />
     <Compile Include="Modules\BasicSamples\Grids\StoredProcedureGrid\CustomerGrossSalesRepository.cs" />
+    <Compile Include="Modules\ModuloCliente\ClienteColumns.cs" />
+    <Compile Include="Modules\ModuloCliente\ClienteForm.cs" />
+    <Compile Include="Modules\ModuloCliente\ClienteGrid.cs" />
+    <Compile Include="Modules\ModuloCliente\ClientePage.cs" />
+    <Compile Include="Modules\ModuloCliente\ClienteRow.cs" />
+    <Compile Include="Modules\ModuloProducto\ProductoColumns.cs" />
+    <Compile Include="Modules\ModuloProducto\ProductoForm.cs" />
+    <Compile Include="Modules\ModuloProducto\ProductoGrid.cs" />
+    <Compile Include="Modules\ModuloProducto\ProductoPage.cs" />
+    <Compile Include="Modules\ModuloProducto\ProductoRow.cs" />
     <Compile Include="Modules\Northwind\Customer\CustomerGrossSalesRow.cs" />
     <Compile Include="Modules\BasicSamples\Grids\VSGalleryQA\VSGalleryQAColumns.cs" />
     <Compile Include="Modules\BasicSamples\Grids\VSGalleryQA\VSGalleryQAParser.cs" />
